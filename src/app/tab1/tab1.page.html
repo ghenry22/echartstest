@@ -1,0 +1,14 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Tab One
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <div #chart1 echarts [options]="chartOption1" [merge]="updateOptions1" class="div1"></div>
+
+  <div echarts [options]="chartOption2" [merge]="updateOptions2" class="div2"></div>
+</ion-content>
